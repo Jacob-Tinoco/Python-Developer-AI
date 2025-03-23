@@ -1,4 +1,4 @@
-"""Pseudocodigo propuesto para el entrenamiento del modelo"""
+# Pseudocódigo propuesto para el entrenamiento del modelo
 
 # Mostrar mensaje de derechos de autor
 MOSTRAR "© 2025. Todos los derechos reservados. Este script está protegido por derechos de autor (Jacob Tinoco). El uso no autorizado está prohibido."
