@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  detection_anomalies:
+    build: .
+    container_name: detection_anomalies_container
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"  # Ajustar a servidor web
+    environment:
+      - PYTHONUNBUFFERED=1
