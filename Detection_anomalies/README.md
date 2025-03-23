@@ -43,6 +43,9 @@ Detection_anomalies/
 │   ├── train/...                 # Modelos entrenados 
 ├── requirements.txt              # Archivo con las dependencias necesarias
 ├── README.md                     # Documentación básica del proyecto
+├── Dockerfile
+├── docker-compose.yml (opcional)
+├── .dockerignore
 ```
 
 ---
