@@ -1,0 +1,1 @@
+En esta carpeta deben de existir el modelo preentrenado de Yolo

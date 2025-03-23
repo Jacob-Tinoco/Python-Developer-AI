@@ -1,0 +1,48 @@
+| Fecha (ISO 8601) | Hora (UTC)  | Línea de Producción | Nombre del Producto | Tipo de Anomalía    | Confianza (%) |
+|------------------|-------------|---------------------|---------------------|---------------------|---------------|
+| 2025-03-21       | 20:33:00    | Línea 1             | Producto A          | Mancha              | 87            |
+| 2025-03-21       | 20:33:30    | Línea 2             | Producto B          | Costura             | 92            |
+| 2025-03-21       | 20:34:00    | Línea 3             | Producto C          | Orificio en tela    | 78            |
+| 2025-03-21       | 20:34:30    | Línea 1             | Producto A          | Mancha              | 65            |
+| 2025-03-21       | 20:35:00    | Línea 2             | Producto B          | Costura             | 45            |
+| 2025-03-21       | 20:35:30    | Línea 3             | Producto C          | Orificio en tela    | 56            |
+| 2025-03-21       | 20:36:00    | Línea 1             | Producto A          | Mancha              | 89            |
+| 2025-03-21       | 20:36:30    | Línea 2             | Producto B          | Costura             | 75            |
+| 2025-03-21       | 20:37:00    | Línea 3             | Producto C          | Orificio en tela    | 84            |
+| 2025-03-21       | 20:37:30    | Línea 1             | Producto A          | Mancha              | 91            |
+| 2025-03-21       | 20:38:00    | Línea 2             | Producto B          | Costura             | 67            |
+| 2025-03-21       | 20:38:30    | Línea 3             | Producto C          | Orificio en tela    | 72            |
+| 2025-03-21       | 20:39:00    | Línea 1             | Producto A          | Mancha              | 88            |
+| 2025-03-21       | 20:39:30    | Línea 2             | Producto B          | Costura             | 93            |
+| 2025-03-21       | 20:40:00    | Línea 3             | Producto C          | Orificio en tela    | 80            |
+| 2025-03-21       | 20:40:30    | Línea 1             | Producto A          | Mancha              | 85            |
+| 2025-03-21       | 20:41:00    | Línea 2             | Producto B          | Costura             | 74            |
+| 2025-03-21       | 20:41:30    | Línea 3             | Producto C          | Orificio en tela    | 60            |
+| 2025-03-21       | 20:42:00    | Línea 1             | Producto A          | Mancha              | 92            |
+| 2025-03-21       | 20:42:30    | Línea 2             | Producto B          | Costura             | 81            |
+| 2025-03-21       | 20:43:00    | Línea 3             | Producto C          | Orificio en tela    | 73            |
+| 2025-03-21       | 20:43:30    | Línea 1             | Producto A          | Mancha              | 90            |
+| 2025-03-21       | 20:44:00    | Línea 2             | Producto B          | Costura             | 77            |
+| 2025-03-21       | 20:44:30    | Línea 3             | Producto C          | Orificio en tela    | 82            |
+| 2025-03-21       | 20:45:00    | Línea 1             | Producto A          | Mancha              | 88            |
+| 2025-03-21       | 20:45:30    | Línea 2             | Producto B          | Costura             | 79            |
+| 2025-03-21       | 20:46:00    | Línea 3             | Producto C          | Orificio en tela    | 70            |
+| 2025-03-21       | 20:46:30    | Línea 1             | Producto A          | Mancha              | 93            |
+| 2025-03-21       | 20:47:00    | Línea 2             | Producto B          | Costura             | 85            |
+| 2025-03-21       | 20:47:30    | Línea 3             | Producto C          | Orificio en tela    | 78            |
+| 2025-03-21       | 20:48:00    | Línea 1             | Producto A          | Mancha              | 91            |
+| 2025-03-21       | 20:48:30    | Línea 2             | Producto B          | Costura             | 76            |
+| 2025-03-21       | 20:49:00    | Línea 3             | Producto C          | Orificio en tela    | 83            |
+| 2025-03-21       | 20:49:30    | Línea 1             | Producto A          | Mancha              | 89            |
+| 2025-03-21       | 20:50:00    | Línea 2             | Producto B          | Costura             | 95            |
+| 2025-03-21       | 20:50:30    | Línea 3             | Producto C          | Orificio en tela    | 86            |
+| 2025-03-21       | 20:51:00    | Línea 1             | Producto A          | Mancha              | 87            |
+| 2025-03-21       | 20:51:30    | Línea 2             | Producto B          | Costura             | 90            |
+| 2025-03-21       | 20:52:00    | Línea 3             | Producto C          | Orificio en tela    | 75            |
+| 2025-03-21       | 20:52:30    | Línea 1             | Producto A          | Mancha              | 85            |
+| 2025-03-21       | 20:53:00    | Línea 2             | Producto B          | Costura             | 88            |
+| 2025-03-21       | 20:53:30    | Línea 3             | Producto C          | Orificio en tela    | 92            |
+| 2025-03-21       | 20:54:00    | Línea 1             | Producto A          | Mancha              | 78            |
+| 2025-03-21       | 20:54:30    | Línea 2             | Producto B          | Costura             | 83            |
+| 2025-03-21       | 20:55:00    | Línea 3             | Producto C          | Orificio en tela    | 80            |
+| 2025-03-21       | 20:55:30    | Línea 1             | Producto A          | Mancha              | 86            |
