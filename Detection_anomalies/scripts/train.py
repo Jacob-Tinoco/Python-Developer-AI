@@ -1,26 +1,32 @@
-# Pseudocódigo propuesto para el entrenamiento del modelo
+# Script para el entrenamiento del modelo YOLO
+# © 2025. Todos los derechos reservados. Este script está protegido por derechos de autor (Jacob Tinoco). El uso no autorizado está prohibido.
+
+# Importar la librería YOLO
+from ultralytics import YOLO
 
 # Mostrar mensaje de derechos de autor
-MOSTRAR "© 2025. Todos los derechos reservados. Este script está protegido por derechos de autor (Jacob Tinoco). El uso no autorizado está prohibido."
+print("© 2025. Todos los derechos reservados. Este script está protegido por derechos de autor (Jacob Tinoco). El uso no autorizado está prohibido.")
 
-# Cargar el modelo YOLO
-IMPORTAR librería YOLO
+# Intentar cargar el modelo YOLO
+try:
+    # Cargar el modelo preentrenado
+    modelo = YOLO("Dirección/PATH/de/modelo/preentrenado")  # Reemplazar con la ruta real del modelo
+except Exception as e:
+    # Mostrar mensaje de error si no se puede cargar el modelo
+    print("Error: No se pudo cargar el modelo. Verifica la ruta o el archivo.")
+    print(f"Detalles del error: {e}")
+    exit()  # Terminar la ejecución del script
 
-# Intentar cargar el modelo
-INTENTAR:
-    modelo ← YOLO("Dirección/PATH/de/modelo/preentrenado")  # Cargar modelo preentrenado
-CATCH (Error):
-    MOSTRAR "Error: No se pudo cargar el modelo. Verifica la ruta o el archivo."
-    TERMINAR
-
-# Entrenar el modelo
-INTENTAR:
-    resultados ← modelo.entrenar(datos="Dirección/PATH/etiquetas/coco", épocas="#", tamaño_imagen="#")
-    MOSTRAR "Entrenamiento completado con éxito."
-CATCH (Error):
-    MOSTRAR "Error: Falló el entrenamiento. Verifica los datos o parámetros."
-    TERMINAR
+# Intentar entrenar el modelo
+try:
+    # Entrenar el modelo con los parámetros especificados
+    resultados = modelo.train(data="Dirección/PATH/etiquetas/coco", epochs=1, imgsz=640)  # Ajustar parámetros según necesidad
+    print("Entrenamiento completado con éxito.")
+except Exception as e:
+    # Mostrar mensaje de error si falla el entrenamiento
+    print("Error: Falló el entrenamiento. Verifica los datos o parámetros.")
+    print(f"Detalles del error: {e}")
+    exit()  # Terminar la ejecución del script
 
 # Mostrar mensaje de finalización
-MOSTRAR "Ejecución completada. Jacob Tinoco © 2025. Todos los derechos reservados."
-
+print("Ejecución completada. Jacob Tinoco © 2025. Todos los derechos reservados.")
