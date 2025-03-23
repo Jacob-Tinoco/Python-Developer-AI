@@ -1,0 +1,10 @@
+# Ignorar archivos innecesarios
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+.DS_Store
+.git/
+.vscode/
+results/
+runs/
