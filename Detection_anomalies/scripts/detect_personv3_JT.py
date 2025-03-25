@@ -1,3 +1,13 @@
+"""
+Script para la automatización de solicitudes
+Autor: Jacob Tinoco
+Fecha: 23/03/2025
+Derechos Reservados. Este script está protegido por derechos de autor. 
+Uso permitido únicamente para fines personales o educativos.
+© 2025. Todos los derechos reservados. Este script está protegido por derechos de autor (Jacob Tinoco).
+Uso no autorizado está prohibido.
+
+"""
 import cv2
 import numpy as np
 from ultralytics import YOLO  
