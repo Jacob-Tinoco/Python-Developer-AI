@@ -59,8 +59,8 @@ automatizacion de solicitudes/
 
 1. **Clonar el repositorio**:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
-   cd <NOMBRE_DEL_REPOSITORIO>
+   git clone https://github.com/Jacob-Tinoco/Python-Developer-AI/tree/main/automatizacion_solicitudes
+   cd la/ruta/local/aqui/mi/estimado
    ```
 
 2. **Crear un entorno virtual (opcional, aunque recomendado)**:
