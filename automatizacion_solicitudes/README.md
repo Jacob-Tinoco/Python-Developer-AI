@@ -23,23 +23,16 @@ El enfoque principal es garantizar que las interacciones o dudas de los clientes
 ## **Estructura del Proyecto**
 
 ```
-automatizacion de solicitudes/
-│
-├── data/                     # Carpeta para almacenar los datos de entrada
-│   ├── solicitudes.txt       # Archivo de texto con solicitudes fake
-│
-├── results/                  # Carpeta para almacenar los resultados generados
-│   ├── resultados.txt        # Archivo de texto con los resultados procesados
-│
-├── models/                   # Carpeta para almacenar modelos preentrenados (opcional)
-│
-├── scripts/                  # Carpeta con los scripts principales
-│   ├── main.py               # Script principal para ejecutar el sistema
-│   ├── utils.py              # Funciones auxiliares (lectura/escritura de archivos, etc.)
-│
-├── requirements.txt          # Archivo con las dependencias del proyecto
-│
-└── README.md                 # Instrucciones para usar el proyecto
+├── Automatizacion_solicitudes/   # Proyecto 2: Automatización de solicitudes de clientes
+│   ├── data/                     # Carpeta para almacenar datos de entrada (solicitudes en texto)
+│   ├── results/                  # Carpeta para almacenar resultados generados
+│   ├── models/                   # Carpeta para almacenar modelos preentrenados (opcional)
+│   ├── scripts/                  # Scripts principales para procesamiento y clasificación
+│   ├── README.md                 # Instrucciones específicas del proyecto
+│   ├── requirements.txt          # Archivo con las dependencias del proyecto
+│   ├── Indorme_automatización_solicitudes_240325_JT.pdf
+│   ├── baja_confianza.txt
+│   ├── main.py
 ```
 
 ---
