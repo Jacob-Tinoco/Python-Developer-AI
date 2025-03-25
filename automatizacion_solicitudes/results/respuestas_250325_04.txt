@@ -1,0 +1,107 @@
+""""
+Version 2.0.0
+un registro de eventos simple
+aqui se agrega en clasificación "Duda del cliente" 
+- error en Positivo/Negativo"
+""""
+ID | Fecha | Hora Solicitud (UTC) | Hora Respuesta (UTC) | Clasificación | Positivo/Negativo | ID Solicitud | Solicitud Procesada
+1 | 2025-03-25 | 01:54:50 | 01:54:51 | Duda del cliente | Duda | 1 | ¿Cuánto tiempo tarda en llegar mi pedido?
+2 | 2025-03-25 | 01:54:51 | 01:54:51 | Insatisfacción del Producto | Negativa | 2 | Mi producto llegó dañado, necesito hacer una devolución.
+3 | 2025-03-25 | 01:54:51 | 01:54:51 | Satisfacción del Producto | Positiva | 3 | Estoy satisfecho con el servicio, todo fue excelente.
+4 | 2025-03-25 | 01:54:51 | 01:54:51 | Facturación | Negativa | 4 | ¿Pueden ayudarme con una factura que no recibí?
+5 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas del Producto | Negativa | 5 | El producto que compré no funciona correctamente.
+6 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas de Métodos de Pago | Negativa | 6 | ¿Qué métodos de pago aceptan para las compras en línea?
+7 | 2025-03-25 | 01:54:51 | 01:54:51 | General | Negativa | 7 | Estoy muy feliz con mi compra, fue una gran experiencia.
+8 | 2025-03-25 | 01:54:51 | 01:54:51 | General | Negativa | 8 | ¿Cuándo llegará mi pedido? Llevo esperando varios días.
+9 | 2025-03-25 | 01:54:51 | 01:54:51 | Facturación | Negativa | 9 | Necesito cambiar mi factura, tiene un error.
+10 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas del Producto | Positiva | 10 | El producto llegó antes de lo esperado, ¡gracias!
+11 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas del Producto | Negativa | 11 | ¿Pueden darme más información sobre este producto?
+12 | 2025-03-25 | 01:54:51 | 01:54:51 | General | Negativa | 12 | Mi pedido no llegó completo, faltan artículos.
+13 | 2025-03-25 | 01:54:51 | 01:54:51 | Satisfacción del Producto | Positiva | 13 | Estoy muy satisfecho con la atención al cliente.
+14 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas de Envío | Negativa | 14 | ¿Cuánto cuesta el envío para mi región?
+15 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas del Producto | Negativa | 15 | La calidad del producto es pésima, no estoy contento.
+16 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas de Métodos de Pago | Negativa | 16 | Necesito ayuda para realizar un pago en su plataforma.
+17 | 2025-03-25 | 01:54:51 | 01:54:51 | General | Positiva | 17 | Todo salió perfecto, ¡gracias por su atención!
+18 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas de Envío | Negativa | 18 | ¿Qué opciones de envío tienen disponibles?
+19 | 2025-03-25 | 01:54:51 | 01:54:51 | Satisfacción del Producto | Negativa | 19 | La entrega fue rápida y eficiente, estoy satisfecho.
+20 | 2025-03-25 | 01:54:51 | 01:54:51 | Facturación | Negativa | 20 | Necesito una factura con mi RFC, ¿pueden ayudarme?
+21 | 2025-03-25 | 01:54:51 | 01:54:51 | Duda del cliente | Duda | 21 | El artículo llegó roto, ¿cómo puedo devolverlo?
+22 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas de Métodos de Pago | Negativa | 22 | ¿Aceptan pagos con PayPal?
+23 | 2025-03-25 | 01:54:51 | 01:54:51 | Satisfacción del Producto | Positiva | 23 | Estoy muy agradecido, el producto es de excelente calidad.
+24 | 2025-03-25 | 01:54:51 | 01:54:51 | Duda del cliente | Duda | 24 | ¿Cuál es el tiempo estimado de entrega?
+25 | 2025-03-25 | 01:54:51 | 01:54:51 | Satisfacción del Producto | Negativa | 25 | No estoy satisfecho con el producto, no cumple con la descripción.
+26 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas de Envío | Negativa | 26 | ¿Cómo puedo rastrear mi envío?
+27 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas del Producto | Negativa | 27 | El producto es increíble, superó mis expectativas.
+28 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas de Métodos de Pago | Negativa | 28 | ¿Qué métodos de pago tienen en su tienda física?
+29 | 2025-03-25 | 01:54:51 | 01:54:51 | General | Negativa | 29 | Mi pedido llegó incompleto, necesito una solución.
+30 | 2025-03-25 | 01:54:51 | 01:54:51 | General | Positiva | 30 | Estoy encantado con el servicio, ¡muy recomendable!
+31 | 2025-03-25 | 01:54:51 | 01:54:51 | Insatisfacción del Producto | Negativa | 31 | ¿Cuánto tiempo tardan en procesar una devolución?
+32 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas del Producto | Negativa | 32 | El producto que recibí no es lo que pedí, estoy decepcionado.
+33 | 2025-03-25 | 01:54:51 | 01:54:51 | Duda del cliente | Duda | 33 | ¿Puedo pagar con tarjeta de débito?
+34 | 2025-03-25 | 01:54:51 | 01:54:51 | General | Negativa | 34 | Todo fue perfecto, desde la compra hasta la entrega.
+35 | 2025-03-25 | 01:54:51 | 01:54:51 | Duda del cliente | Duda | 35 | ¿Qué hago si mi pedido no llega?
+36 | 2025-03-25 | 01:54:51 | 01:54:51 | Satisfacción del Producto | Positiva | 36 | El producto es de excelente calidad, estoy feliz con la compra.
+37 | 2025-03-25 | 01:54:51 | 01:54:51 | Preguntas de Envío | Negativa | 37 | ¿Tienen envío gratis en pedidos grandes?
+38 | 2025-03-25 | 01:54:51 | 01:54:52 | Preguntas del Producto | Negativa | 38 | El producto llegó roto, necesito una solución inmediata.
+39 | 2025-03-25 | 01:54:52 | 01:54:52 | Duda del cliente | Duda | 39 | ¿Cómo puedo contactar al servicio al cliente?
+40 | 2025-03-25 | 01:54:52 | 01:54:52 | Satisfacción del Producto | Positiva | 40 | Estoy muy satisfecho con la rapidez del envío.
+41 | 2025-03-25 | 01:54:52 | 01:54:52 | Facturación | Negativa | 41 | Necesito una factura urgente, ¿pueden enviármela?
+42 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas del Producto | Negativa | 42 | El producto no funciona, ¿pueden cambiarlo?
+43 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas de Métodos de Pago | Negativa | 43 | ¿Aceptan transferencias bancarias como método de pago?
+44 | 2025-03-25 | 01:54:52 | 01:54:52 | Satisfacción del Producto | Positiva | 44 | Todo fue muy rápido y eficiente, ¡excelente servicio!
+45 | 2025-03-25 | 01:54:52 | 01:54:52 | Duda del cliente | Duda | 45 | ¿Qué hago si mi paquete está retrasado?
+46 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas del Producto | Positiva | 46 | Estoy encantado con la calidad del producto, muchas gracias.
+47 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas de Envío | Negativa | 47 | ¿Cuánto cuesta el envío internacional?
+48 | 2025-03-25 | 01:54:52 | 01:54:52 | Satisfacción del Producto | Negativa | 48 | El producto llegó en mal estado, no estoy satisfecho.
+49 | 2025-03-25 | 01:54:52 | 01:54:52 | Duda del cliente | Duda | 49 | ¿Cómo puedo cancelar mi pedido?
+50 | 2025-03-25 | 01:54:52 | 01:54:52 | General | Negativa | 50 | Estoy muy feliz con mi compra, todo salió bien.
+51 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas de Métodos de Pago | Negativa | 51 | ¿Qué opciones de pago tienen para clientes corporativos?
+52 | 2025-03-25 | 01:54:52 | 01:54:52 | General | Positiva | 52 | Mi pedido llegó antes de lo esperado, ¡muy contento!
+53 | 2025-03-25 | 01:54:52 | 01:54:52 | Facturación | Negativa | 53 | ¿Cómo puedo corregir un error en mi factura?
+54 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas del Producto | Negativa | 54 | El producto llegó tarde y no estoy contento con el servicio.
+55 | 2025-03-25 | 01:54:52 | 01:54:52 | Insatisfacción del Producto | Negativa | 55 | ¿Qué políticas de devolución tienen?
+56 | 2025-03-25 | 01:54:52 | 01:54:52 | Satisfacción del Producto | Negativa | 56 | Estoy muy satisfecho con la atención que recibí.
+57 | 2025-03-25 | 01:54:52 | 01:54:52 | Duda del cliente | Duda | 57 | ¿Cuánto tiempo tardan en procesar un reembolso?
+58 | 2025-03-25 | 01:54:52 | 01:54:52 | Insatisfacción del Producto | Negativa | 58 | Mi pedido llegó dañado, ¿cómo puedo reclamar?
+59 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas del Producto | Negativa | 59 | ¿Aceptan pagos en efectivo al recibir el producto?
+60 | 2025-03-25 | 01:54:52 | 01:54:52 | General | Negativa | 60 | Estoy muy contento con la rapidez del servicio.
+61 | 2025-03-25 | 01:54:52 | 01:54:52 | Duda del cliente | Duda | 61 | ¿Qué hago si no puedo rastrear mi pedido?
+62 | 2025-03-25 | 01:54:52 | 01:54:52 | Satisfacción del Producto | Negativa | 62 | El producto no cumple con las especificaciones, no estoy satisfecho.
+63 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas de Envío | Negativa | 63 | ¿Tienen promociones especiales para envíos?
+64 | 2025-03-25 | 01:54:52 | 01:54:52 | Satisfacción del Producto | Positiva | 64 | Estoy muy satisfecho con mi compra, ¡gran producto!
+65 | 2025-03-25 | 01:54:52 | 01:54:52 | Facturación | Negativa | 65 | ¿Qué hago si no recibí mi factura?
+66 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas del Producto | Negativa | 66 | El producto llegó defectuoso, necesito ayuda.
+67 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas de Envío | Negativa | 67 | ¿Cuánto cuesta el envío a mi país?
+68 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas del Producto | Positiva | 68 | Estoy encantado con el producto, es justo lo que esperaba.
+69 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas de Métodos de Pago | Negativa | 69 | ¿Qué métodos de pago tienen disponibles en su sitio web?
+70 | 2025-03-25 | 01:54:52 | 01:54:52 | General | Negativa | 70 | Mi pedido llegó incompleto, necesito asistencia.
+71 | 2025-03-25 | 01:54:52 | 01:54:52 | Satisfacción del Producto | Positiva | 71 | Estoy muy agradecido, el servicio fue excelente.
+72 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas del Producto | Negativa | 72 | ¿Qué hago si mi producto no funciona?
+73 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas del Producto | Positiva | 73 | El producto es de muy buena calidad, estoy encantado.
+74 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas de Envío | Negativa | 74 | ¿Tienen envío exprés disponible?
+75 | 2025-03-25 | 01:54:52 | 01:54:52 | General | Negativa | 75 | Mi paquete llegó en mal estado, necesito una solución.
+76 | 2025-03-25 | 01:54:52 | 01:54:52 | Facturación | Negativa | 76 | ¿Cómo puedo realizar un cambio en mi factura?
+77 | 2025-03-25 | 01:54:52 | 01:54:52 | General | Negativa | 77 | Estoy muy feliz con la compra, todo fue perfecto.
+78 | 2025-03-25 | 01:54:52 | 01:54:52 | Duda del cliente | Duda | 78 | ¿Qué hago si mi pedido está retrasado?
+79 | 2025-03-25 | 01:54:52 | 01:54:52 | Satisfacción del Producto | Positiva | 79 | El producto llegó antes de lo esperado, ¡muy satisfecho!
+80 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas de Envío | Negativa | 80 | ¿Qué opciones de envío tienen para mi ciudad?
+81 | 2025-03-25 | 01:54:52 | 01:54:52 | Satisfacción del Producto | Negativa | 81 | No estoy satisfecho con el servicio, el producto llegó tarde.
+82 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas de Métodos de Pago | Negativa | 82 | ¿Tienen métodos de pago a meses sin intereses?
+83 | 2025-03-25 | 01:54:52 | 01:54:52 | General | Positiva | 83 | Estoy encantado con mi experiencia de compra, ¡gracias!
+84 | 2025-03-25 | 01:54:52 | 01:54:52 | Duda del cliente | Duda | 84 | ¿Qué hago si mi pedido no coincide con lo que pedí?
+85 | 2025-03-25 | 01:54:52 | 01:54:52 | Satisfacción del Producto | Positiva | 85 | El producto es de excelente calidad, estoy muy satisfecho.
+86 | 2025-03-25 | 01:54:52 | 01:54:52 | Insatisfacción del Producto | Negativa | 86 | ¿Cuánto tiempo tardan en procesar una devolución?
+87 | 2025-03-25 | 01:54:52 | 01:54:52 | General | Positiva | 87 | Estoy muy contento con la rapidez de la entrega.
+88 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas del Producto | Negativa | 88 | ¿Qué hago si mi producto llegó roto?
+89 | 2025-03-25 | 01:54:52 | 01:54:52 | Satisfacción del Producto | Negativa | 89 | Estoy muy feliz con mi compra, todo fue excelente.
+90 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas de Métodos de Pago | Negativa | 90 | ¿Qué opciones de pago tienen para clientes internacionales?
+91 | 2025-03-25 | 01:54:52 | 01:54:52 | Satisfacción del Producto | Negativa | 91 | Mi pedido llegó tarde, no estoy satisfecho.
+92 | 2025-03-25 | 01:54:52 | 01:54:52 | Facturación | Negativa | 92 | ¿Qué hago si mi factura tiene un error?
+93 | 2025-03-25 | 01:54:52 | 01:54:52 | General | Positiva | 93 | Estoy encantado con el servicio, ¡muy recomendable!
+94 | 2025-03-25 | 01:54:52 | 01:54:52 | Duda del cliente | Duda | 94 | ¿Cuánto tiempo tardan en enviar un pedido?
+95 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas del Producto | Negativa | 95 | El producto llegó defectuoso, necesito una solución.
+96 | 2025-03-25 | 01:54:52 | 01:54:52 | Duda del cliente | Duda | 96 | ¿Cómo puedo rastrear mi paquete?
+97 | 2025-03-25 | 01:54:52 | 01:54:52 | Satisfacción del Producto | Positiva | 97 | Estoy muy satisfecho con la calidad del producto.
+98 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas de Envío | Negativa | 98 | ¿Qué opciones de envío tienen para pedidos grandes?
+99 | 2025-03-25 | 01:54:52 | 01:54:52 | Preguntas del Producto | Negativa | 99 | El producto no cumple con lo que esperaba, no estoy contento.
+100 | 2025-03-25 | 01:54:52 | 01:54:52 | General | Positiva | 100 | Estoy encantado con la atención al cliente, ¡gracias!

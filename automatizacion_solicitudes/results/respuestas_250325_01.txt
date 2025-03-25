@@ -1,0 +1,106 @@
+""""
+Version 1.0.0
+un registro de eventos simple
+
+""""
+ID | Fecha | Hora Solicitud (UTC) | Hora Respuesta (UTC) | Clasificación | Positivo/Negativo
+1 | 2025-03-25 | 01:36:22 | 01:36:23 | General | Negativa
+2 | 2025-03-25 | 01:36:23 | 01:36:23 | Insatisfacción del Producto | Negativa
+3 | 2025-03-25 | 01:36:23 | 01:36:23 | Satisfacción del Producto | Positiva
+4 | 2025-03-25 | 01:36:23 | 01:36:23 | Facturación | Negativa
+5 | 2025-03-25 | 01:36:23 | 01:36:23 | Preguntas del Producto | Negativa
+6 | 2025-03-25 | 01:36:23 | 01:36:23 | Preguntas de Métodos de Pago | Negativa
+7 | 2025-03-25 | 01:36:23 | 01:36:23 | General | Negativa
+8 | 2025-03-25 | 01:36:23 | 01:36:23 | General | Negativa
+9 | 2025-03-25 | 01:36:23 | 01:36:23 | Facturación | Negativa
+10 | 2025-03-25 | 01:36:23 | 01:36:23 | Preguntas del Producto | Positiva
+11 | 2025-03-25 | 01:36:23 | 01:36:23 | Preguntas del Producto | Negativa
+12 | 2025-03-25 | 01:36:23 | 01:36:23 | General | Negativa
+13 | 2025-03-25 | 01:36:23 | 01:36:23 | Satisfacción del Producto | Positiva
+14 | 2025-03-25 | 01:36:23 | 01:36:23 | Preguntas de Envío | Negativa
+15 | 2025-03-25 | 01:36:23 | 01:36:23 | Preguntas del Producto | Negativa
+16 | 2025-03-25 | 01:36:23 | 01:36:23 | Preguntas de Métodos de Pago | Negativa
+17 | 2025-03-25 | 01:36:23 | 01:36:23 | General | Positiva
+18 | 2025-03-25 | 01:36:23 | 01:36:23 | Preguntas de Envío | Negativa
+19 | 2025-03-25 | 01:36:23 | 01:36:23 | Satisfacción del Producto | Negativa
+20 | 2025-03-25 | 01:36:23 | 01:36:23 | Facturación | Negativa
+21 | 2025-03-25 | 01:36:23 | 01:36:23 | General | Negativa
+22 | 2025-03-25 | 01:36:23 | 01:36:23 | Preguntas de Métodos de Pago | Negativa
+23 | 2025-03-25 | 01:36:23 | 01:36:23 | Satisfacción del Producto | Positiva
+24 | 2025-03-25 | 01:36:23 | 01:36:23 | General | Negativa
+25 | 2025-03-25 | 01:36:23 | 01:36:23 | Satisfacción del Producto | Negativa
+26 | 2025-03-25 | 01:36:23 | 01:36:24 | Preguntas de Envío | Negativa
+27 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Negativa
+28 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas de Métodos de Pago | Negativa
+29 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+30 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Positiva
+31 | 2025-03-25 | 01:36:24 | 01:36:24 | Insatisfacción del Producto | Negativa
+32 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Negativa
+33 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+34 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+35 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+36 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Positiva
+37 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas de Envío | Negativa
+38 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Negativa
+39 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+40 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Positiva
+41 | 2025-03-25 | 01:36:24 | 01:36:24 | Facturación | Negativa
+42 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Negativa
+43 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas de Métodos de Pago | Negativa
+44 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Positiva
+45 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+46 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Positiva
+47 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas de Envío | Negativa
+48 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Negativa
+49 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+50 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+51 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas de Métodos de Pago | Negativa
+52 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Positiva
+53 | 2025-03-25 | 01:36:24 | 01:36:24 | Facturación | Negativa
+54 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Negativa
+55 | 2025-03-25 | 01:36:24 | 01:36:24 | Insatisfacción del Producto | Negativa
+56 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Negativa
+57 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+58 | 2025-03-25 | 01:36:24 | 01:36:24 | Insatisfacción del Producto | Negativa
+59 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Negativa
+60 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+61 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+62 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Negativa
+63 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas de Envío | Negativa
+64 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Positiva
+65 | 2025-03-25 | 01:36:24 | 01:36:24 | Facturación | Negativa
+66 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Negativa
+67 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas de Envío | Negativa
+68 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Positiva
+69 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas de Métodos de Pago | Negativa
+70 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+71 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Positiva
+72 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Negativa
+73 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Positiva
+74 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas de Envío | Negativa
+75 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+76 | 2025-03-25 | 01:36:24 | 01:36:24 | Facturación | Negativa
+77 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+78 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+79 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Positiva
+80 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas de Envío | Negativa
+81 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Negativa
+82 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas de Métodos de Pago | Negativa
+83 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Positiva
+84 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+85 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Positiva
+86 | 2025-03-25 | 01:36:24 | 01:36:24 | Insatisfacción del Producto | Negativa
+87 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Positiva
+88 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Negativa
+89 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Negativa
+90 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas de Métodos de Pago | Negativa
+91 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Negativa
+92 | 2025-03-25 | 01:36:24 | 01:36:24 | Facturación | Negativa
+93 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Positiva
+94 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+95 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Negativa
+96 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Negativa
+97 | 2025-03-25 | 01:36:24 | 01:36:24 | Satisfacción del Producto | Positiva
+98 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas de Envío | Negativa
+99 | 2025-03-25 | 01:36:24 | 01:36:24 | Preguntas del Producto | Negativa
+100 | 2025-03-25 | 01:36:24 | 01:36:24 | General | Positiva
