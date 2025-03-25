@@ -1,3 +1,5 @@
+# **Detección de errores en prendas con visión por ordenador y streaming.**
+---
 ## Autores
 
 - **Jacob Tinoco** - *Repositorio de educación* - [Jacob-Tinoco](https://github.com/Jacob-Tinoco)
@@ -107,13 +109,21 @@ pip install -r requirements.txt
 ```
 
 ---
+
+## **Contribuciones**
+
+Si deseas contribuir a este proyecto, por favor abre un **Pull Request** o crea un **Issue** en el repositorio, no olvides la mención al autor en su uso :´v.
+
+---
 ## Actualizaciones
 Posteriormente actualizaré este archivo README para proporcionar más detalles sobre el proyecto.
 
-**Fecha de última actualización:** 23/03/25
+**Fecha de última actualización:** 24/03/25
 
 ## Licencia
 Este proyecto está licenciado bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
+Este script está protegido por derechos de autor y se permite su uso únicamente para fines personales o educativos. Para otros usos, contacta al autor.
+
 
 ## Contacto
 Puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/jacob-t-329675258/) o en [Instagram](https://www.instagram.com/jknc.0/).
