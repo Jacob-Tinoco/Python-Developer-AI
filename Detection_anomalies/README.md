@@ -45,6 +45,7 @@ Detection_anomalies/
 ├── README.md                     # Documentación básica del proyecto
 ├── Dockerfile
 ├── docker-compose.yml (opcional)
+├── Indorme_Detection_anomalies_240325_JT.pdf
 ├── .dockerignore
 ```
 
