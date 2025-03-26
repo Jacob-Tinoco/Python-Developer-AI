@@ -4,7 +4,7 @@
 
 - **Jacob Tinoco** - *Repositorio de educación* - [Jacob-Tinoco](https://github.com/Jacob-Tinoco)
 ---
-## Bienvenida
+## Bienvenido
 ¡Hola! 👋 Bienvenido al repositorio **Python Developer AI**. Este proyecto contiene codigos y pseudocodigos para resolver dos problemas propuestos:
 - 1. Detección de errores en prendas con visión por ordenador y streaming.
 - 2. Automatización de alto volumen de solicitudes en Atención al Cliente.
