@@ -28,7 +28,7 @@ Este proyecto aborda la **detección de anomalías en prendas** mediante visión
 
 ---
 
-### **2. Automatización de alto volumen de solicitudes**
+### **2. automatización_solicitudes**
 Este proyecto se enfoca en la **automatización de la clasificación de solicitudes de clientes** utilizando un modelo de Procesamiento de Lenguaje Natural (NLP). Permite procesar solicitudes en texto, clasificarlas en categorías específicas y registrar los resultados de manera estructurada.
 
 ---
